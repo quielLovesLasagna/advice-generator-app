@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="This is a solution to the Advice generator app challenge on Frontend Mentor"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../images/favicon-32x32.png"
+		/>
+		<!-- SCSS -->
+		<link rel="stylesheet" href="./scss/main.scss" />
+		<!-- SCRIPT -->
+		<script defer type="module" src="./js/script.js"></script>
+		<title>Frontend Mentor | Advice generator app</title>
+	</head>
+	<body>
+		<main>
+			<div class="container">
+				<p class="container__tag">
+					Advice #<span class="container__advice-num"></span>
+				</p>
+				<blockquote class="container__advice"></blockquote>
+				<img
+					src="../images/pattern-divider-desktop.svg"
+					alt="An image of a line which acts like a divider"
+				/>
+				<div class="container__dice-box">
+					<img src="../images/icon-dice.svg" alt="An image of a dice" />
+				</div>
+			</div>
+			<div class="error">
+				<p class="error-message"></p>
+			</div>
+		</main>
+	</body>
+</html>
